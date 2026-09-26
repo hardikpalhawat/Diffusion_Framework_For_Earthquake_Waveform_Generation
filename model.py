@@ -4,7 +4,7 @@ import torch.nn
 from dataclasses import dataclass
 import torch.nn.functional as F
 
-from mamaba_ssm import Mamba
+from mamba_ssm import Mamba
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
 
